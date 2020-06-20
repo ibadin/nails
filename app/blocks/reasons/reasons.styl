@@ -1,0 +1,32 @@
+.reasons
+	width:1000px;
+	margin:0 auto;
+	display:flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin-top: 63px;
+	padding-bottom: 19px;
+	border-bottom: 1px solid #ccc;
+
+	&__title
+		font-size: 24px;
+		margin-bottom: 5px;
+		font-weight: 800;
+		line-height: 28px;
+		color: $c-first;
+		font-variant: small-caps;
+
+	&__column
+		width: calc(50% - 10px);
+
+	&__term
+		margin-top:5px;
+		font-weight: bold;
+
+	&__list
+		margin-bottom: 9px;
+	&__item
+		margin-bottom: 5px;
+
+		&:before
+			content:"—";

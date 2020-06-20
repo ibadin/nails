@@ -1,0 +1,52 @@
+.views
+	width: 1000px;
+	margin: 0 auto;
+
+	&__header
+		text-align: center;
+		max-width: 655px;
+		margin: 0 auto;
+		padding: 45px 0 55px 0;
+
+		h2
+			font-size: 60px;
+			font-weight: 800;
+			line-height: 80px;
+
+	&__list
+		display: flex;
+		justify-content: space-between;
+
+	&__item
+		width: calc(196px - 20px);
+
+	&__image
+		height: 224px;
+		cursor: pointer;
+		margin-bottom: 2px;
+
+		&--image-1
+			background: url("../images/nails.png");
+
+		&--image-2
+			background: url("../images/nails2.png");
+
+		&--position-1
+			background-position: 0px;
+
+		&--position-2
+			background-position: -177px;
+
+		&--position-3
+			background-position: 177px;
+
+	&__description
+		font-size: 16px;
+		line-height: 20px;
+
+	&__link
+		border-bottom: 1px dashed rgba(40, 54, 107, 0.5);
+		color: $c-first;
+		font-size: 16px;
+		line-height: 16px;
+		display: inline-block;

@@ -1,0 +1,20 @@
+//- Выбираем шаблон
+extends  ../blocks/layouts/default
+
+
+block head
+    - var pageTitle = 'Заголовок страницы'
+
+
+
+block content
+
+    include ../blocks/first/first
+    include ../blocks/important/important
+    include ../blocks/reasons/reasons
+    include ../blocks/methods/methods
+    include ../blocks/views/views
+    include ../blocks/insert/insert
+    include ../blocks/contacts/contacts
+
+
